@@ -10,7 +10,8 @@
 
 - Runtime (read only): `app/src/llm/resilience.ts`, `clientHelpers.ts`, and `guardrails.ts`.
 - Tests: replace `app/src/llm/__test_resilience.ts` with `resilience.test.ts`; replace `__test_client_timeout.ts` with `clientHelpers.test.ts`.
-- Integration: both replacement files match the existing Vitest include pattern and therefore execute in the existing CI test step.
+- Tests: replace `app/src/llm/__test_parse.ts` with `parse.test.ts`; migrate `app/src/__test_i18n_llm.ts` into the existing `i18n.test.ts`.
+- Integration: all replacement files match the existing Vitest include pattern and therefore execute in the existing CI test step.
 - No architecture decision or new dependency is needed.
 
 ## Verification
@@ -20,6 +21,8 @@ From `app/`:
 ```text
 npm test -- src/llm/__test_resilience.ts src/llm/__test_client_timeout.ts
 npm test -- src/llm/resilience.test.ts src/llm/clientHelpers.test.ts
+npm test -- src/llm/__test_parse.ts src/__test_i18n_llm.ts
+npm test -- src/llm/parse.test.ts src/i18n.test.ts
 npm test
 npx tsc --noEmit
 npm run build

@@ -1,4 +1,4 @@
-# LLM resilience tests in normal CI
+# LLM standalone tests in normal CI
 
 ## Scope and acceptance
 
@@ -8,6 +8,7 @@
 - [x] Keep runtime code, dependency manifests/locks, and the sample-format eval reports unchanged.
 - [x] Run the focused suites, the full frontend suite, and the existing CI type/build gates.
 - [x] Review the patch for an isolated reviewable commit; no push or main-branch merge in this task.
+- [x] Review the remaining standalone parser/i18n scripts against current normal tests; migrate any uncovered valid contracts and rerun the affected gates.
 
 ## Evidence boundaries
 
