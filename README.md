@@ -130,4 +130,4 @@ npm run eval:preferences
 
 ---
 
-Built by **[Zoe](https://zoe-site-ten.vercel.app)** — practical AI products with inspectable behavior, privacy boundaries, and measurable feedback loops.
+Built by **[Zoe](https://zoe-builds.com/)** — practical AI products with inspectable behavior, privacy boundaries, and measurable feedback loops.
