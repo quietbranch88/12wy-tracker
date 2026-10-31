@@ -1,6 +1,6 @@
 # 12wy-tracker
 
-[Download latest release](https://github.com/zoetw88/12wy-tracker/releases/latest) · [Watch the demo](screenshots/demo.gif)
+[Download latest release](https://github.com/quietbranch88/12wy-tracker/releases/latest) · [Watch the demo](screenshots/demo.gif)
 
 ![Tauri](https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)
