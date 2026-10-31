@@ -1,6 +1,6 @@
 # 12wy-tracker
 
-[Download latest release](https://github.com/zoetw88/12wy-tracker/releases/latest) · [Watch the demo](screenshots/demo.gif)
+[Download latest release](https://github.com/quietbranch88/12wy-tracker/releases/latest) · [Watch the demo](screenshots/demo.gif)
 
 ![Tauri](https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)
@@ -130,4 +130,4 @@ npm run eval:preferences
 
 ---
 
-Built by **[Zoe](https://zoe-site-ten.vercel.app)** — practical AI products with inspectable behavior, privacy boundaries, and measurable feedback loops.
+Built by **[Zoe](https://zoe-builds.com/)** — practical AI products with inspectable behavior, privacy boundaries, and measurable feedback loops.
